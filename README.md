@@ -14,6 +14,10 @@
 
 `git commit -m "commitDescription"`
 
-## Commit's name convention
+## Commit's name conventions
 
 [Go to official site](https://www.conventionalcommits.org/en/v1.0.0/)
+
+- `fix:` changes that patches a bug in your codebase (**PATCH** version)
+- `feat:` changes that introduce a new feature to your codebase (**MINOR** version)
+- `docs:` Documentation only change
