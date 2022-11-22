@@ -123,6 +123,7 @@ a:active {
 --*/
 #hero-area {
   position: relative;
+  background-size: cover;
 }
 #hero-area:before {
   content: "";
