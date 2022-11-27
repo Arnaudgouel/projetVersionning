@@ -1,0 +1,14 @@
+name: production
+on:
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v2
+      - name: merge
+        run: |
+          git pull origin
+          git checkout prod
+          git merge staging
+          git push origin prod
