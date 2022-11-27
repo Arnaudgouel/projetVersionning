@@ -10,5 +10,5 @@ jobs:
         run: |
           git pull origin
           git checkout prod
-          git merge staging
+          git merge staging --allow-unrelated-histories
           git push origin prod
