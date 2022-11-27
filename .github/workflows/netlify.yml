@@ -1,7 +1,11 @@
 name: Build and Deploy to Netlify
 on:
   push:
+    branches:
+      - prod
   pull_request:
+    branches:
+      - prod
 jobs:
   build:
     runs-on: ubuntu-18.04
