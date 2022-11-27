@@ -12,5 +12,5 @@ jobs:
           git config --local user.name "Github Actions"
           git pull origin
           git checkout prod
-          git merge staging --allow-unrelated-histories
+          git pull origin staging
           git push origin prod
