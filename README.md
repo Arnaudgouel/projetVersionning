@@ -67,3 +67,7 @@ git checkout -b <branchName>
 1. Envoyer le(s) commit(s) sur le repo distant
 1. Créer une pull request sur github ![pr github](docs/img/pr-github.png)
 1. Mettre en reviewer une autre personne pour qu'elle valide les changements
+
+## Versions
+
+Nous avons décidé de mettre la majeure en 1 lorsque que nous avons intégré le template repris.
